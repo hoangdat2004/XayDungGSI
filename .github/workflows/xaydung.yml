@@ -1,14 +1,14 @@
-name: Xây Dựng Generic System Image
+name: Xây Dựng MIUI System Image
 
 on:
   watch:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
-  ROM_NAME: Generic
+  ROM_URL: https://udomain.dl.sourceforge.net/project/hnport/HNRom/HNRom_POCOF1_20.9.24_10.zip
+  ROM_NAME: MIUI
   BUILD_AB: true
-  BUILD_Aonly: false
+  BUILD_Aonly: true
   ROM_AONLY: ROM_A.7z
   ROM_AB: ROM_AB.7z
 
